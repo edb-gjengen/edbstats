@@ -1,12 +1,10 @@
 import json
-import subprocess
-
 import os
-from csv import DictReader
+import subprocess
+import sys
 
 from collections import defaultdict
-
-import sys
+from csv import DictReader
 
 DATA_DIR = 'data'
 
